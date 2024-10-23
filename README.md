@@ -34,6 +34,8 @@ C:\Users\DELL\weatherMonitor.py:23: DeprecationWarning: datetime.datetime.utcfro
 {'coord': {'lon': 78.4744, 'lat': 17.3753}, 'weather': [{'id': 721, 'main': 'Haze', 'description': 'haze', 'icon': '50n'}], 'base': 'stations', 'main': {'temp': 295.38, 'feels_like': 295.83, 'temp_min': 295.38, 'temp_max': 295.88, 'pressure': 1012, 'humidity': 83, 'sea_level': 1012, 'grnd_level': 955}, 'visibility': 5000, 'wind': {'speed': 2.06, 'deg': 0}, 'clouds': {'all': 20}, 'dt': 1729709447, 'sys': {'type': 1, 'id': 9214, 'country': 'IN', 'sunrise': 1729730496, 'sunset': 1729772321}, 'timezone': 19800, 'id': 1269843, 'name': 'Hyderabad', 'cod': 200}
 C:\Users\DELL\weatherMonitor.py:46: DeprecationWarning: The default date adapter is deprecated as of Python 3.12; see the sqlite3 documentation for suggested replacement recipes
   cursor.execute('''INSERT INTO daily_summaries (date, avg_temp, max_temp, min_temp, dominant_condition)
+
+  
 Date: 2024-10-23
 Average Temp: 25.90°C
 Max Temp: 29.99°C
